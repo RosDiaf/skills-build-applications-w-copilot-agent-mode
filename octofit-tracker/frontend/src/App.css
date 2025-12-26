@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8e8ff 100%);
+  color: #2d2d44;
+
+/* Navigation Bar */
+.navbar {
+  background: linear-gradient(90deg, #4f8cff 0%, #7f53ac 100%) !important;
+  box-shadow: 0 2px 8px rgba(79, 140, 255, 0.08);
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff !important;
+}
+.navbar-brand img.octofit-logo {
+  height: 40px;
+  margin-right: 12px;
+}
+.nav-link {
+  color: #e3f0ff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-link.active, .nav-link:hover {
+  color: #ffd166 !important;
+}
+
+/* Headings */
+h1, .display-6, .card-title {
+  color: #7f53ac;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+h2, h3, h4, h5, h6 {
+  color: #4f8cff;
+}
+
+/* Tables */
+.table-primary {
+  background-color: #e3f0ff !important;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f8e8ff !important;
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #fff !important;
+}
+.table th, .table td {
+  color: #2d2d44;
+}
+
+/* Buttons */
+.btn-primary, .btn-outline-primary {
+  background: linear-gradient(90deg, #4f8cff 0%, #7f53ac 100%);
+  border: none;
+  color: #fff;
+}
+.btn-primary:hover, .btn-outline-primary:hover {
+  background: linear-gradient(90deg, #7f53ac 0%, #4f8cff 100%);
+  color: #ffd166;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  border: none;
+  color: #fff;
+}
+.btn-success:hover {
+  background: linear-gradient(90deg, #38f9d7 0%, #43e97b 100%);
+  color: #7f53ac;
+}
+.btn-danger, .btn-outline-danger {
+  background: linear-gradient(90deg, #ff5858 0%, #f09819 100%);
+  border: none;
+  color: #fff;
+}
+.btn-danger:hover, .btn-outline-danger:hover {
+  background: linear-gradient(90deg, #f09819 0%, #ff5858 100%);
+  color: #fff;
+}
+
+/* Card */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(127, 83, 172, 0.08);
+}
+
+/* Links */
+a {
+  color: #4f8cff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #7f53ac;
+  text-decoration: underline;
+}
+
+/* Favicon (for demonstration, not CSS) */
+/* Add favicon via public/index.html */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
